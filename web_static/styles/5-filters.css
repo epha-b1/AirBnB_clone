@@ -14,19 +14,19 @@
     vertical-align: middle;
     height: 100%;
     width: 25%;
-    margin-left: 45px;
+    /* margin-left: 45px; */
     border-right: 1px solid #DDDDDD;
     border-left: 1px solid #DDDDDD ;
     padding-left: 20px;
-    /*border: 2px solid red;*/
 }
 
 .amenities{
     display: inline-block;
     vertical-align: middle;
     height: 100%;
-    width: 25%;
+    width: 100%;
     margin-left: 45px;
+    
 
 }
 
