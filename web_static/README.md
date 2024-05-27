@@ -1,70 +1,88 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
-> AirBNB clone web static
+# AirBnB clone - Web static Project
 
-## Background Context
-
-### Web static, what?
-Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
-
-Before developing a big and complex web application, we will build the front end step-by-step.
-
-The first step is to “design” / “sketch” / “prototype” each element:
-
-- Create simple HTML static pages
-- Style guide
-- Fake contents
-- No Javascript
-- No data loaded from anything
-
-During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
-
-## Resources
-__Read or watch__:
-1. [Learn to code HTML/CSS](https://learn.shayhowe.com/html-css/)
-2. [Inline styles in CSS](https://www.codecademy.com/article/html-inline-styles)
-3. [Specifics on CSS specificity](https://css-tricks.com/specifics-on-css-specificity/)
-4. [CSS Specifishity](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
-5. [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-6. [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-7. [MDN](https://developer.mozilla.org/en-US/)
-8. [Centering boxes](https://developer.mozilla.org/en-US/)
-
-## Learning objectives
-By the end of this project you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) __without the help of google__
-
-
-* [X] What is HTML
-* [X] How to create an HTML page
-* [X] What is a markup language
-* [X] What is the DOM
-* [X] What is an element / tag
-* [X] What is an attribute
-* [X] How does the browser load a webpage
-* [X] What is CSS
-* [X] How to add style to an element
-* [X] What is a class
-* [X] What is a selector
-* [X] How to compute CSS Specificity Value
-* [X] What are Box properties in CSS
+This project aims to create a web interface for an AirBnB-like application. The implementation follows a series of tasks to progressively enhance the user interface.
 
 ## Requirements
+
 ### General
 
-- Allowed editors: ```vi```, ```vim```, ```emacs```
-- All your files should end with a new line
+- Allowed editors: vi, vim, emacs
+- All files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
-- Your code should be W3C compliant and validate with W3C-Validator
-- All your CSS files should be in ```styles``` folder
-- All your images should be in ```images``` folder
-- You are not allowed to use ```!important``` and ```id``` (```#```... in the CSS file)
-- You are not allowed to use tags ```img```, ```embed``` and ```iframe```
-- You are not allowed to use Javascript
-- Current screenshots have been done on ```Chrome 56 ```or more.
-- No cross browsers
-- You have to follow all requirements but some ```margin```/```padding``` are missing - you should try to fit as much as you can to screenshots
+- Code should be W3C compliant and validate with W3C-Validator
+- CSS files should be in the "styles" folder
+- Images should be in the "images" folder
+- Avoid using !important and id (#...) in the CSS file
+- Do not use tags img, embed, and iframe
+- No JavaScript allowed
+- Screenshots taken on Chrome 56 or later
+- No cross-browser compatibility required
+- Follow all specific requirements, adjusting margin/padding to fit screenshots as much as possible
 
-### More info
-![front-end](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png)
+## Tasks
 
-## Quizes
-[Quiz](./quiz.md)
+### 0. Inline styling
+
+- Create an HTML page with a header and a footer using inline styling.
+- Body: no margin, no padding
+- Header: red color, height: 70px, width: 100%
+- Footer: green color, height: 60px, width: 100%, text "Best School center" vertically and horizontally, always at the bottom
+
+### 1. Head styling
+
+- Create an HTML page with a header and a footer using the style tag in the head.
+- Layout same as 0-index.html
+
+### 2. CSS files
+
+- Create an HTML page with a header and a footer using separate CSS files.
+- Layout same as 1-index.html
+
+### 3. Zoning done!
+
+- Enhance the styling with global, header, and footer CSS files.
+- Add font styles and icon in the browser tab.
+- Header: white color, border bottom #CCCCCC, logo aligned left and center vertically
+- Footer: white color, border top #CCCCCC, "Best School" text centered vertically and horizontally
+
+### 4. Search!
+
+- Add a filters box with a search button.
+- Container between header and footer with max width 1000px.
+- Filter section: white color, border 1px #DDDDDD, radius 4px, button with background color #FF5A5F, text color #FFFFFF, opacity 90% on hover.
+
+### 5. More filters
+
+- Add location and amenities filters.
+- Locations and Amenities filters: 25% width, border right #DDDDDD for the first left filter.
+
+### 6. It's (h)over
+
+- Add a contextual dropdown when hovering over the location or amenities filter.
+
+### 7. Display results
+
+- Add a Places section with multiple listing articles.
+- Article: width 390px, padding and margin 20px, border #FF5A5F 1px, place name centered horizontally.
+
+### 8. More details
+
+- Add more information to a Place article.
+- Price by night, Information section, User section, Description section.
+
+### 9. Full details
+
+- Add a list of Amenities and Reviews to a Place article.
+
+### 10. Flex
+
+- Use Flexible boxes for all Place articles to improve layout.
+
+### 11. Responsive design
+
+- Add responsive design to display correctly on mobile or small screens.
+
+### 12. Accessibility
+
+- Improve the page by adding accessibility support.
+- Consider colors contrast, header tags, and other accessibility features.
