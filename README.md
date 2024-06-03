@@ -1,1 +1,1 @@
-Console for the hbnb project.
+Console for the airbnb project.
